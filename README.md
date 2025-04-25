@@ -4,13 +4,13 @@ This package is implemented by <ins>Sharareh Sayyad</ins>. It explores the class
 ## Model architectures
 
 Various deep learning models are implemented in this package, including:
-- MLP: The codes are stored in [MLP/](https://github.com/say-yas/deeplearning_activity_recognition/tree/main/MLP) 
-- CNN: The codes are stored in [CNN_LSTM/](https://github.com/say-yas/deeplearning_activity_recognition/tree/main/CNN_LSTM) 
-- LSTM: The codes are stored in [CNN_LSTM/](https://github.com/say-yas/deeplearning_activity_recognition/tree/main/CNN_LSTM) 
-- CNN-LSTM: The codes are stored in [CNN_LSTM/](https://github.com/say-yas/deeplearning_activity_recognition/tree/main/CNN_LSTM) 
-- Transformer: The codes are stored in [Transformer/](https://github.com/say-yas/deeplearning_activity_recognition/tree/main/Transformer) 
+- MLP: The codes are stored in [MLP/](https://github.com/say-yas/DL_ActRec/tree/main/MLP) 
+- CNN: The codes are stored in [CNN_LSTM/](https://github.com/say-yas/DL_ActRec/tree/main/CNN_LSTM) 
+- LSTM: The codes are stored in [CNN_LSTM/](https://github.com/say-yas/DL_ActRec/tree/main/CNN_LSTM) 
+- CNN-LSTM: The codes are stored in [CNN_LSTM/](https://github.com/say-yas/DL_ActRec/tree/main/CNN_LSTM) 
+- Transformer: The codes are stored in [Transformer/](https://github.com/say-yas/DL_ActRec/tree/main/Transformer) 
 
-A notebook to analyze the statistical behavior of the dataset is available [here](https://github.com/say-yas/deeplearning_activity_recognition/tree/main/Data_Analysis).
+A notebook to analyze the statistical behavior of the dataset is available [here](https://github.com/say-yas/DL_ActRec/tree/main/Data_Analysis).
 
 ## Requirements
 A collection of required packages to install and execute our code is collected in `requirements.txt`.
@@ -22,4 +22,4 @@ A collection of required packages to install and execute our code is collected i
 After installing the package, all provided notebooks and Python codes in `data_analysis/MLP/CNN_LSTM/Transformer` can be called.
 
 ## Summary of best results
-We have collected a selected number of our best performances in [postprocessing_avg/](https://github.com/say-yas/deeplearning_activity_recognition/tree/main/postprocessing_avg). The results are obtained from averaging the outputs of each particular model for 20 different trainings.
+We have collected a selected number of our best performances in [postprocessing_avg/](https://github.com/say-yas/DL_ActRec/tree/main/postprocessing_avg). The results are obtained from averaging the outputs of each particular model for 20 different trainings.
