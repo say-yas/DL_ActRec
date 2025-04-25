@@ -1,0 +1,9 @@
+batch_size transformermodel upsample lr max_length_series segment_duration nhead_encoder conv1d_kernel_size bool_conv1d_emb embed_size dim_feedforward norm_type num_encoderlayers size_linear_layers mean_accuracy mean_f1_score mean_gmean mean_precision mean_recall std_accuracy std_f1_score std_gmean std_precision std_recall total_params
+128	trans1	ADASYN	0.001	4000	50	16	7	True	64	16	'per-channel'	6	32	0.9593	0.9577	0.9743	0.9574	0.9585	0.0052	0.0057	0.0037	0.0061	0.0054	186534
+128	trans1	ADASYN	0.001	4000	50	16	7	True	64	16	'per-channel'	4	32	0.9593	0.9573	0.9741	0.9571	0.9580	0.0069	0.0076	0.0046	0.0076	0.0076	148486
+128	trans1	SMOTE	0.001	4000	50	16	7	False	64	16	'per-channel'	4	32	0.9575	0.9558	0.9735	0.9562	0.9557	0.0037	0.0038	0.0023	0.0037	0.0040	148486
+128	trans1	SMOTE	0.001	4000	50	16	7	False	64	16	'per-channel'	6	32	0.9570	0.9553	0.9733	0.9557	0.9554	0.0060	0.0063	0.0037	0.0060	0.0065	186534
+128	trans1	SMOTE	0.001	4000	50	16	7	True	64	16	'per-channel'	4	32	0.9569	0.9550	0.9729	0.9553	0.9551	0.0032	0.0037	0.0024	0.0040	0.0037	148486
+128	trans1	SMOTE	0.001	4000	50	16	7	True	64	16	'per-channel'	6	32	0.9566	0.9552	0.9727	0.9549	0.9560	0.0053	0.0056	0.0036	0.0058	0.0053	186534
+128	trans1	ADASYN	0.001	4000	50	16	7	False	64	16	'per-channel'	4	32	0.9543	0.9522	0.9710	0.9520	0.9530	0.0041	0.0049	0.0030	0.0051	0.0048	148486
+128	trans1	ADASYN	0.001	4000	50	16	7	False	64	16	'per-channel'	6	32	0.9253	0.9207	0.9357	0.9251	0.9205	0.1481	0.1612	0.1680	0.1406	0.1642	186534

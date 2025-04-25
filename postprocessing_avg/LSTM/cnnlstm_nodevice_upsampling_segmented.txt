@@ -1,0 +1,5 @@
+batch_size model_type upsample lr max_length_series segment_duration num_conv_lyrs size_linear_lyr num_blocks_per_layer initial_channels lstm_hidden_size lstm_layers norm_type mean_accuracy mean_f1_score mean_gmean mean_precision mean_recall std_accuracy std_f1_score std_gmean std_precision std_recall total_params
+128	lstm	ADASYN	0.001	4000	50	0	16	0	0	8	4	'per-timestep'	0.9089	0.9058	0.9417	0.9059	0.9077	0.0193	0.0207	0.0136	0.0208	0.0204	2390
+128	lstm	SMOTE	0.001	4000	50	0	16	0	0	8	4	'per-timestep'	0.8676	0.8574	0.8934	0.8646	0.8618	0.1457	0.1608	0.1655	0.1405	0.1614	2390
+128	lstm	ADASYN	0.001	4000	50	0	32	0	0	8	4	'per-timestep'	0.8691	0.8598	0.8995	0.8662	0.8730	0.1279	0.1379	0.1314	0.1216	0.0996	2630
+128	lstm	SMOTE	0.001	4000	50	0	32	0	0	8	4	'per-timestep'	0.9003	0.8955	0.9338	0.8970	0.8979	0.0526	0.0580	0.0419	0.0561	0.0552	2630

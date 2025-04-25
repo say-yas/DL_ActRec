@@ -1,0 +1,5 @@
+batch_size model_type lr max_length_series segment_duration num_conv_lyrs size_linear_lyr num_blocks_per_layer initial_channels lstm_hidden_size lstm_layers norm_type mean_accuracy mean_f1_score mean_gmean mean_precision mean_recall std_accuracy std_f1_score std_gmean std_precision std_recall total_params
+128	lstm	0.001	4000	50	0	16	0	0	8	2	'per-timestep'	0.8291	0.8418	0.8961	0.8457	0.8463	0.0658	0.0649	0.0467	0.0617	0.0587	1238
+128	lstm	0.001	4000	50	0	32	0	0	8	2	'per-timestep'	0.8184	0.8337	0.8913	0.8375	0.8348	0.0571	0.0558	0.0404	0.0526	0.0535	1478
+128	lstm	0.001	4000	50	0	32	0	0	8	4	'per-timestep'	0.7605	0.7601	0.8014	0.7794	0.7695	0.2178	0.2405	0.2540	0.2062	0.2272	2630
+128	lstm	0.001	4000	50	0	16	0	0	8	4	'per-timestep'	0.6803	0.6721	0.7142	0.7028	0.6813	0.2493	0.2757	0.2971	0.2353	0.2699	2390

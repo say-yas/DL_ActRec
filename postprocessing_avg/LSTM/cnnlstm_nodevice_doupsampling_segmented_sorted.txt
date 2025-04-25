@@ -1,0 +1,5 @@
+batch_size model_type doupsample lr max_length_series segment_duration num_conv_lyrs size_linear_lyr num_blocks_per_layer initial_channels lstm_hidden_size lstm_layers norm_type mean_accuracy mean_f1_score mean_gmean mean_precision mean_recall std_accuracy std_f1_score std_gmean std_precision std_recall total_params
+128	lstm	SMOTEENN	0.001	4000	50	0	16	0	0	8	4	'per-timestep'	0.9290	0.8963	0.9352	0.8993	0.9035	0.0432	0.0717	0.0478	0.0648	0.0639	2390
+128	lstm	SMOTETomek	0.001	4000	50	0	32	0	0	8	4	'per-timestep'	0.9277	0.9275	0.9556	0.9277	0.9287	0.0118	0.0118	0.0074	0.0118	0.0112	2630
+128	lstm	SMOTEENN	0.001	4000	50	0	32	0	0	8	4	'per-timestep'	0.8962	0.8581	0.8987	0.8663	0.8616	0.1421	0.1673	0.1589	0.1433	0.1681	2630
+128	lstm	SMOTETomek	0.001	4000	50	0	16	0	0	8	4	'per-timestep'	0.8866	0.8806	0.9138	0.8866	0.8843	0.1355	0.1552	0.1471	0.1355	0.1474	2390

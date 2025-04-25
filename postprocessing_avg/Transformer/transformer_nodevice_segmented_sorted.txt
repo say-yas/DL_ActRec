@@ -1,0 +1,5 @@
+batch_size transformermodel lr max_length_series segment_duration nhead_encoder conv1d_kernel_size bool_conv1d_emb embed_size dim_feedforward norm_type num_encoderlayers size_linear_layers mean_accuracy mean_f1_score mean_gmean mean_precision mean_recall std_accuracy std_f1_score std_gmean std_precision std_recall total_params
+128	trans1	0.001	4000	50	16	7	True	64	16	'per-channel'	6	32	0.9462	0.9498	0.9688	0.9495	0.9504	0.0065	0.0065	0.0039	0.0064	0.0065	186534
+128	trans1	0.001	4000	50	16	7	True	64	16	'per-channel'	4	32	0.9458	0.9494	0.9684	0.9490	0.9506	0.0062	0.0066	0.0040	0.0064	0.0064	148486
+128	trans1	0.001	4000	50	16	7	False	64	16	'per-channel'	6	32	0.9456	0.9490	0.9684	0.9488	0.9499	0.0080	0.0076	0.0049	0.0078	0.0071	186534
+128	trans1	0.001	4000	50	16	7	False	64	16	'per-channel'	4	32	0.9417	0.9455	0.9664	0.9457	0.9458	0.0061	0.0061	0.0036	0.0059	0.0060	148486
