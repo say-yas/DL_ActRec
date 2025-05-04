@@ -1,6 +1,8 @@
 # Deep learning for activity recognition
 This package is implemented by <ins>Sharareh Sayyad</ins>. It explores the classification problem for a time-dependent dataset. In particular, the code is implemented to address this problem on [WISDM dataset](https://archive.ics.uci.edu/dataset/507/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset).
 
+
+
 ## Model architectures
 
 Various deep learning models are implemented in this package, including:
@@ -20,6 +22,8 @@ A collection of required packages to install and execute our code is collected i
 
 ## How to use
 After installing the package, all provided notebooks and Python codes in `data_analysis/MLP/CNN_LSTM/Transformer` can be called.
+
+See the [report file](https://github.com/say-yas/DL_ActRec/tree/main/Report_Activity_Recognition.pdf) for further details.
 
 ## Summary of best results
 We have collected a selected number of our best performances in [postprocessing_avg/](https://github.com/say-yas/DL_ActRec/tree/main/postprocessing_avg). The results are obtained from averaging the outputs of each particular model for 20 different trainings.
