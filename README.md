@@ -12,7 +12,7 @@ Various deep learning models are implemented in this package, including:
 - CNN-LSTM: The codes are stored in [CNN_LSTM/](https://github.com/say-yas/DL_ActRec/tree/main/CNN_LSTM) 
 - Transformer: The codes are stored in [Transformer/](https://github.com/say-yas/DL_ActRec/tree/main/Transformer) 
 
-A notebook to analyze the statistical behavior of the dataset is available [here](https://github.com/say-yas/DL_ActRec/tree/main/Data_Analysis).
+A notebook to analyze the statistical behavior of the dataset is available [here](https://github.com/say-yas/DL_ActRec/tree/main/data_analysis).
 
 ## Requirements
 A collection of required packages to install and execute our code is collected in `requirements.txt`.
