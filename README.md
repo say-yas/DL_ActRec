@@ -26,4 +26,4 @@ After installing the package, all provided notebooks and Python codes in `data_a
 See the [report file](https://github.com/say-yas/DL_ActRec/tree/main/Report_Activity_Recognition.pdf) for further details.
 
 ## Summary of best results
-We have collected a selected number of our best performances in [postprocessing_avg/](https://github.com/say-yas/DL_ActRec/tree/main/postprocessing_avg). The results are obtained from averaging the outputs of each particular model for 20 different trainings.
+I have collected a selected number of my best performed parameter sets and their associated metrics on the test sets in [postprocessing_avg/](https://github.com/say-yas/DL_ActRec/tree/main/postprocessing_avg). The results are obtained from averaging the outputs of each particular model for 20 different trainings.
