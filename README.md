@@ -15,7 +15,7 @@ Various deep learning models are implemented in this package, including:
 A notebook to analyze the statistical behavior of the dataset is available [here](https://github.com/say-yas/DL_ActRec/tree/main/data_analysis).
 
 ## Requirements
-A collection of required packages to install and execute our code is collected in `requirements.txt`.
+A collection of required packages to install and execute our code is stored in `requirements.txt`.
 
 ## Installation
  To install the package, one can either call `sh install.sh` or try `pip install .` inside the package's main directory.
